@@ -1,0 +1,14 @@
+body{
+    color: rgb(54, 50, 50);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font: 15 pt;
+    text-align: center;
+    
+}
+/*const color ='red'
+const positionX=0
+const positionY=0
+const width= 250
+const height=250
+context.fillStyle=color
+context.fillRect(positionX,positionY,width,height)
