@@ -84,8 +84,8 @@ function createGame() {
                        }
                    },
                    s(player) {
-                       if(player.x +  1 <state.screen.height) {
-                           player.y = player.y + 1 
+                       if(player.y  +  1 <state.screen.height) {
+                        player.y = player.y +1
                        }
                    },
                    a(player) {
