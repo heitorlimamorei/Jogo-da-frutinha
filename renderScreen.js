@@ -1,6 +1,6 @@
   function renderScreen(screen, game, requestAnimationFrame) {
     const context = screen.getContext('2d')
-    context.fillStyle = 'white'
+    context.fillStyle = 'gray'
     context.fillRect(0, 0, 10, 10)
     for ( const playerId in game.state.players){
      const player = game.state.players[playerId]

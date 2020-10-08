@@ -92,7 +92,13 @@ function createGame() {
                        if(player.x - 1 >= 0) {
                           player.x = player.x - 1
                        }
+                   },
+                   e(player) {
+                       if(player.x + 5 <state.screen.width) {
+                        player.x = player.x + 5
+                       }
                    }
+                   
                 }
                   
                const keyPressed = command.keyPressed
